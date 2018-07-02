@@ -1,0 +1,477 @@
+thread/libopenthread_mtd_a-network_data_leader.o: \
+ thread/network_data_leader.cpp /usr/include/stdc-predef.h \
+ thread/network_data_leader.hpp openthread-core-config.h \
+ ../../include/openthread/config.h \
+ ../../include/openthread-config-generic.h \
+ openthread-core-default-config.h utils/wrap_stdint.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h coap/coap.hpp \
+ ../../include/openthread/coap.h ../../include/openthread/message.h \
+ ../../include/openthread/types.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdbool.h \
+ ../../include/openthread/platform/toolchain.h coap/coap_header.hpp \
+ utils/wrap_string.h /usr/include/string.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h /usr/include/xlocale.h \
+ /usr/include/x86_64-linux-gnu/bits/string3.h common/encoding.hpp \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h common/message.hpp \
+ ../../include/openthread/platform/messagepool.h common/code_utils.hpp \
+ utils/wrap_stdbool.h common/locator.hpp openthread-single-instance.h \
+ openthread-core-config.h mac/mac_frame.hpp \
+ ../../include/openthread/platform/radio.h thread/link_quality.hpp \
+ common/debug.hpp /usr/include/ctype.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/assert.h \
+ common/timer.hpp ../../include/openthread/platform/alarm-micro.h \
+ ../../include/openthread/platform/alarm-milli.h common/context.hpp \
+ common/tasklet.hpp ../../include/openthread/tasklet.h net/ip6.hpp \
+ ../../include/openthread/ip6.h ../../include/openthread/udp.h \
+ net/icmp6.hpp ../../include/openthread/icmp6.h net/ip6_headers.hpp \
+ net/ip6_address.hpp net/netif.hpp net/socket.hpp \
+ ../../include/openthread/openthread.h ../../include/openthread/crypto.h \
+ ../../include/openthread/dataset.h ../../include/openthread/instance.h \
+ /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/sigset.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/bits/select2.h \
+ /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+ ../../include/openthread/platform/logging.h \
+ ../../include/openthread/link.h ../../include/openthread/netdata.h \
+ ../../include/openthread/thread.h net/ip6_mpl.hpp net/ip6_routes.hpp \
+ net/udp6.hpp thread/mle_router.hpp thread/mle_router_mtd.hpp \
+ thread/mle.hpp mac/mac.hpp mac/mac_filter.hpp thread/key_manager.hpp \
+ crypto/hmac_sha256.hpp \
+ /home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/md.h \
+ thread/network_diagnostic_tlvs.hpp common/tlvs.hpp \
+ meshcop/meshcop_tlvs.hpp common/crc16.hpp meshcop/timestamp.hpp \
+ thread/mle_constants.hpp thread/topology.hpp \
+ ../../include/openthread/platform/random.h thread/mle_tlvs.hpp \
+ meshcop/joiner_router.hpp thread/parser.hpp thread/thread_tlvs.hpp \
+ thread/network_data.hpp thread/lowpan.hpp thread/network_data_tlvs.hpp \
+ thread/network_data_leader_mtd.hpp common/logging.hpp \
+ thread/thread_netif.hpp coap/coap_secure.hpp meshcop/dtls.hpp \
+ /home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/ssl.h \
+ /home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/mbedtls-config.h \
+ ../../include/openthread/platform/memory.h \
+ /home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/check_config.h \
+ /home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/bignum.h \
+ /home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/ecp.h \
+ /home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/ssl_ciphersuites.h \
+ /home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/pk.h \
+ /home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/md.h \
+ /home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/cipher.h \
+ /home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/entropy.h \
+ /home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/sha256.h \
+ /home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/ctr_drbg.h \
+ /home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/aes.h \
+ /home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/error.h \
+ /home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/certs.h \
+ /home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/ssl_cookie.h \
+ /home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/ssl.h \
+ crypto/sha256.hpp \
+ /home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/sha256.h \
+ meshcop/dataset_manager.hpp meshcop/dataset.hpp \
+ meshcop/dataset_local.hpp thread/network_data_leader.hpp \
+ meshcop/dataset_manager_mtd.hpp meshcop/joiner.hpp \
+ ../../include/openthread/joiner.h meshcop/leader.hpp net/dhcp6.hpp \
+ net/dhcp6_client.hpp ../../include/openthread/dhcp6_client.h \
+ common/trickle_timer.hpp net/dhcp6_server.hpp net/dns_client.hpp \
+ ../../include/openthread/dns.h net/dns_headers.hpp net/ip6_filter.hpp \
+ thread/address_resolver.hpp thread/announce_begin_server.hpp \
+ thread/energy_scan_server.hpp thread/network_diagnostic.hpp \
+ thread/mesh_forwarder.hpp thread/data_poll_manager.hpp \
+ thread/src_match_controller.hpp thread/network_data_local.hpp \
+ thread/panid_query_server.hpp utils/child_supervision.hpp \
+ utils/jam_detector.hpp thread/thread_uri_paths.hpp
+
+/usr/include/stdc-predef.h:
+
+thread/network_data_leader.hpp:
+
+openthread-core-config.h:
+
+../../include/openthread/config.h:
+
+../../include/openthread-config-generic.h:
+
+openthread-core-default-config.h:
+
+utils/wrap_stdint.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/features.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+coap/coap.hpp:
+
+../../include/openthread/coap.h:
+
+../../include/openthread/message.h:
+
+../../include/openthread/types.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdbool.h:
+
+../../include/openthread/platform/toolchain.h:
+
+coap/coap_header.hpp:
+
+utils/wrap_string.h:
+
+/usr/include/string.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/x86_64-linux-gnu/bits/string3.h:
+
+common/encoding.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/limits.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+common/message.hpp:
+
+../../include/openthread/platform/messagepool.h:
+
+common/code_utils.hpp:
+
+utils/wrap_stdbool.h:
+
+common/locator.hpp:
+
+openthread-single-instance.h:
+
+openthread-core-config.h:
+
+mac/mac_frame.hpp:
+
+../../include/openthread/platform/radio.h:
+
+thread/link_quality.hpp:
+
+common/debug.hpp:
+
+/usr/include/ctype.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap-16.h:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h:
+
+/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
+/usr/include/assert.h:
+
+common/timer.hpp:
+
+../../include/openthread/platform/alarm-micro.h:
+
+../../include/openthread/platform/alarm-milli.h:
+
+common/context.hpp:
+
+common/tasklet.hpp:
+
+../../include/openthread/tasklet.h:
+
+net/ip6.hpp:
+
+../../include/openthread/ip6.h:
+
+../../include/openthread/udp.h:
+
+net/icmp6.hpp:
+
+../../include/openthread/icmp6.h:
+
+net/ip6_headers.hpp:
+
+net/ip6_address.hpp:
+
+net/netif.hpp:
+
+net/socket.hpp:
+
+../../include/openthread/openthread.h:
+
+../../include/openthread/crypto.h:
+
+../../include/openthread/dataset.h:
+
+../../include/openthread/instance.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/time.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigset.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
+/usr/include/x86_64-linux-gnu/sys/sysmacros.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
+
+../../include/openthread/platform/logging.h:
+
+../../include/openthread/link.h:
+
+../../include/openthread/netdata.h:
+
+../../include/openthread/thread.h:
+
+net/ip6_mpl.hpp:
+
+net/ip6_routes.hpp:
+
+net/udp6.hpp:
+
+thread/mle_router.hpp:
+
+thread/mle_router_mtd.hpp:
+
+thread/mle.hpp:
+
+mac/mac.hpp:
+
+mac/mac_filter.hpp:
+
+thread/key_manager.hpp:
+
+crypto/hmac_sha256.hpp:
+
+/home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/md.h:
+
+thread/network_diagnostic_tlvs.hpp:
+
+common/tlvs.hpp:
+
+meshcop/meshcop_tlvs.hpp:
+
+common/crc16.hpp:
+
+meshcop/timestamp.hpp:
+
+thread/mle_constants.hpp:
+
+thread/topology.hpp:
+
+../../include/openthread/platform/random.h:
+
+thread/mle_tlvs.hpp:
+
+meshcop/joiner_router.hpp:
+
+thread/parser.hpp:
+
+thread/thread_tlvs.hpp:
+
+thread/network_data.hpp:
+
+thread/lowpan.hpp:
+
+thread/network_data_tlvs.hpp:
+
+thread/network_data_leader_mtd.hpp:
+
+common/logging.hpp:
+
+thread/thread_netif.hpp:
+
+coap/coap_secure.hpp:
+
+meshcop/dtls.hpp:
+
+/home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/ssl.h:
+
+/home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/mbedtls-config.h:
+
+../../include/openthread/platform/memory.h:
+
+/home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/check_config.h:
+
+/home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/bignum.h:
+
+/home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/ecp.h:
+
+/home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/ssl_ciphersuites.h:
+
+/home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/pk.h:
+
+/home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/md.h:
+
+/home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/cipher.h:
+
+/home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/entropy.h:
+
+/home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/sha256.h:
+
+/home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/ctr_drbg.h:
+
+/home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/aes.h:
+
+/home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/error.h:
+
+/home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/certs.h:
+
+/home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/ssl_cookie.h:
+
+/home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/ssl.h:
+
+crypto/sha256.hpp:
+
+/home/bart/Desktop/OpenThread_workdir/openthread-master/third_party/mbedtls/repo.patched/include/mbedtls/sha256.h:
+
+meshcop/dataset_manager.hpp:
+
+meshcop/dataset.hpp:
+
+meshcop/dataset_local.hpp:
+
+thread/network_data_leader.hpp:
+
+meshcop/dataset_manager_mtd.hpp:
+
+meshcop/joiner.hpp:
+
+../../include/openthread/joiner.h:
+
+meshcop/leader.hpp:
+
+net/dhcp6.hpp:
+
+net/dhcp6_client.hpp:
+
+../../include/openthread/dhcp6_client.h:
+
+common/trickle_timer.hpp:
+
+net/dhcp6_server.hpp:
+
+net/dns_client.hpp:
+
+../../include/openthread/dns.h:
+
+net/dns_headers.hpp:
+
+net/ip6_filter.hpp:
+
+thread/address_resolver.hpp:
+
+thread/announce_begin_server.hpp:
+
+thread/energy_scan_server.hpp:
+
+thread/network_diagnostic.hpp:
+
+thread/mesh_forwarder.hpp:
+
+thread/data_poll_manager.hpp:
+
+thread/src_match_controller.hpp:
+
+thread/network_data_local.hpp:
+
+thread/panid_query_server.hpp:
+
+utils/child_supervision.hpp:
+
+utils/jam_detector.hpp:
+
+thread/thread_uri_paths.hpp:

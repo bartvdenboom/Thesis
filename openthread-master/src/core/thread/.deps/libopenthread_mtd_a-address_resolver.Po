@@ -1,0 +1,4 @@
+thread/libopenthread_mtd_a-address_resolver.o: \
+ thread/address_resolver.cpp /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

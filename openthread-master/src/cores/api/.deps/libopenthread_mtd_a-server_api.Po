@@ -1,0 +1,9 @@
+api/libopenthread_mtd_a-server_api.o: api/server_api.cpp \
+ /usr/include/stdc-predef.h ../../include/openthread/config.h \
+ ../../include/openthread-config-generic.h
+
+/usr/include/stdc-predef.h:
+
+../../include/openthread/config.h:
+
+../../include/openthread-config-generic.h:

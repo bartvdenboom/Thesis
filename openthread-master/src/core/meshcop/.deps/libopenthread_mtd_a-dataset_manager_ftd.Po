@@ -1,0 +1,18 @@
+meshcop/libopenthread_mtd_a-dataset_manager_ftd.o: \
+ meshcop/dataset_manager_ftd.cpp /usr/include/stdc-predef.h \
+ meshcop/dataset_manager_ftd.hpp openthread-core-config.h \
+ ../../include/openthread/config.h \
+ ../../include/openthread-config-generic.h \
+ openthread-core-default-config.h
+
+/usr/include/stdc-predef.h:
+
+meshcop/dataset_manager_ftd.hpp:
+
+openthread-core-config.h:
+
+../../include/openthread/config.h:
+
+../../include/openthread-config-generic.h:
+
+openthread-core-default-config.h:

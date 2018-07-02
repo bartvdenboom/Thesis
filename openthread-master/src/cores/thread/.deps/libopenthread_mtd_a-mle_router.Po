@@ -1,0 +1,4 @@
+thread/libopenthread_mtd_a-mle_router.o: thread/mle_router.cpp \
+ /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

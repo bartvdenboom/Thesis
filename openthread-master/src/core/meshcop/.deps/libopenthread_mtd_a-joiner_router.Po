@@ -1,0 +1,4 @@
+meshcop/libopenthread_mtd_a-joiner_router.o: meshcop/joiner_router.cpp \
+ /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

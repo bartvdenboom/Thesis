@@ -1,0 +1,272 @@
+net/libopenthread_ftd_a-ip6_headers.o: net/ip6_headers.cpp \
+ /usr/include/stdc-predef.h net/ip6_headers.hpp openthread-core-config.h \
+ ../../include/openthread/config.h \
+ ../../include/openthread-config-generic.h \
+ openthread-core-default-config.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h \
+ ../../include/openthread/types.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdbool.h \
+ ../../include/openthread/platform/toolchain.h common/encoding.hpp \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h utils/wrap_stdint.h \
+ common/message.hpp utils/wrap_string.h /usr/include/string.h \
+ /usr/include/xlocale.h /usr/include/x86_64-linux-gnu/bits/string3.h \
+ ../../include/openthread/message.h \
+ ../../include/openthread/platform/messagepool.h common/code_utils.hpp \
+ utils/wrap_stdbool.h common/locator.hpp openthread-single-instance.h \
+ openthread-core-config.h mac/mac_frame.hpp \
+ ../../include/openthread/platform/radio.h thread/link_quality.hpp \
+ net/ip6_address.hpp net/netif.hpp common/tasklet.hpp \
+ /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h \
+ ../../include/openthread/tasklet.h common/context.hpp net/socket.hpp \
+ ../../include/openthread/openthread.h ../../include/openthread/crypto.h \
+ ../../include/openthread/dataset.h ../../include/openthread/instance.h \
+ /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/sigset.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/bits/select2.h \
+ /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+ ../../include/openthread/platform/logging.h \
+ ../../include/openthread/ip6.h ../../include/openthread/link.h \
+ ../../include/openthread/netdata.h ../../include/openthread/thread.h \
+ net/ip6.hpp ../../include/openthread/udp.h net/icmp6.hpp \
+ ../../include/openthread/icmp6.h net/ip6_headers.hpp net/ip6_mpl.hpp \
+ common/timer.hpp ../../include/openthread/platform/alarm-micro.h \
+ ../../include/openthread/platform/alarm-milli.h common/debug.hpp \
+ /usr/include/ctype.h /usr/include/assert.h net/ip6_routes.hpp \
+ net/udp6.hpp
+
+/usr/include/stdc-predef.h:
+
+net/ip6_headers.hpp:
+
+openthread-core-config.h:
+
+../../include/openthread/config.h:
+
+../../include/openthread-config-generic.h:
+
+openthread-core-default-config.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h:
+
+../../include/openthread/types.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/features.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdbool.h:
+
+../../include/openthread/platform/toolchain.h:
+
+common/encoding.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/limits.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+utils/wrap_stdint.h:
+
+common/message.hpp:
+
+utils/wrap_string.h:
+
+/usr/include/string.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/x86_64-linux-gnu/bits/string3.h:
+
+../../include/openthread/message.h:
+
+../../include/openthread/platform/messagepool.h:
+
+common/code_utils.hpp:
+
+utils/wrap_stdbool.h:
+
+common/locator.hpp:
+
+openthread-single-instance.h:
+
+openthread-core-config.h:
+
+mac/mac_frame.hpp:
+
+../../include/openthread/platform/radio.h:
+
+thread/link_quality.hpp:
+
+net/ip6_address.hpp:
+
+net/netif.hpp:
+
+common/tasklet.hpp:
+
+/usr/include/stdio.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h:
+
+/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
+../../include/openthread/tasklet.h:
+
+common/context.hpp:
+
+net/socket.hpp:
+
+../../include/openthread/openthread.h:
+
+../../include/openthread/crypto.h:
+
+../../include/openthread/dataset.h:
+
+../../include/openthread/instance.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap-16.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/time.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigset.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
+/usr/include/x86_64-linux-gnu/sys/sysmacros.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
+
+../../include/openthread/platform/logging.h:
+
+../../include/openthread/ip6.h:
+
+../../include/openthread/link.h:
+
+../../include/openthread/netdata.h:
+
+../../include/openthread/thread.h:
+
+net/ip6.hpp:
+
+../../include/openthread/udp.h:
+
+net/icmp6.hpp:
+
+../../include/openthread/icmp6.h:
+
+net/ip6_headers.hpp:
+
+net/ip6_mpl.hpp:
+
+common/timer.hpp:
+
+../../include/openthread/platform/alarm-micro.h:
+
+../../include/openthread/platform/alarm-milli.h:
+
+common/debug.hpp:
+
+/usr/include/ctype.h:
+
+/usr/include/assert.h:
+
+net/ip6_routes.hpp:
+
+net/udp6.hpp:

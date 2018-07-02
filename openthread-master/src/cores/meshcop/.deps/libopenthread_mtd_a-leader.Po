@@ -1,0 +1,4 @@
+meshcop/libopenthread_mtd_a-leader.o: meshcop/leader.cpp \
+ /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

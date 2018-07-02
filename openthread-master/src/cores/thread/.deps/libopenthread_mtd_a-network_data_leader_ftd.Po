@@ -1,0 +1,4 @@
+thread/libopenthread_mtd_a-network_data_leader_ftd.o: \
+ thread/network_data_leader_ftd.cpp /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

@@ -1,0 +1,15 @@
+api/libopenthread_mtd_a-thread_ftd_api.o: api/thread_ftd_api.cpp \
+ /usr/include/stdc-predef.h openthread-core-config.h \
+ ../../include/openthread/config.h \
+ ../../include/openthread-config-generic.h \
+ openthread-core-default-config.h
+
+/usr/include/stdc-predef.h:
+
+openthread-core-config.h:
+
+../../include/openthread/config.h:
+
+../../include/openthread-config-generic.h:
+
+openthread-core-default-config.h:
